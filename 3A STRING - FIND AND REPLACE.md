@@ -1,30 +1,43 @@
 # Exp.No:3a
-## STRING - FIND AND REPLACE
-
+## STRING -  FIND THE LENGTH OF THE STRING
 ---
 
 ### AIM  
-To write a Python function to accept a string, identify a word to be replaced, and replace it with a new word provided by the user.
-
+To write a Python to find the length of the given string.
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Input the original string `str1` and the word to be replaced `replace_str`.  
-3. Ask the user to input the new replacement word `str2`.  
-4. Use the `replace()` method in Python to replace all occurrences of `replace_str` in `str1` with `str2`.  
-5. Store the modified string in `str3`.  
-6. Display the original string (`str1`) and the modified string (`str3`).  
-7. Terminate the program.
+1.Start
+
+2.Input the string (let’s call it str)
+
+3.Initialize a variable count = 0
+
+4.Loop through each character in the string:
+
+5.For each character, increment count by 1
+
+6.After the loop, count will hold the length of the string
+
+7.Display count
+
+8.End
 
 ---
 
 ### PROGRAM
 
 ```
+text = input()
+count = 0
+for char in text:
+count += 1
+print("Length of the string is:", count)
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/6bf61daf-24be-49a0-800c-bd1e60d87cfd)
 
 ### RESULT
+Thus,the given python program is implemented and executed sucessfully.
